@@ -4,6 +4,7 @@
   "description": "An easy to use vertical stepper component for your React projects! Currently W.I.P. Contributions/Feedback accepted!",
   "main": "dist/index.js",
   "scripts": {
+    "prepare": "rollup -c",
     "build": "rollup -c",
     "start": "rollup -c -w",
     "test": "jest --env=jsdom",
